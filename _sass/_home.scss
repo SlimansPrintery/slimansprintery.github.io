@@ -1,0 +1,25 @@
+// Home Page
+
+.home-splash {
+  padding-top: 80px;
+  background: #2F382F;
+  text-align: center;
+
+  button {
+    font-size: 20px;
+    padding: 13px 69px;
+  }
+}
+
+// XXX decompose into splash sass file
+.splash {
+  height: 450px;
+  color: white;
+
+  h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #B2B8B2;
+  }
+}
+
