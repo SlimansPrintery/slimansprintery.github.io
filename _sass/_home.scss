@@ -15,7 +15,7 @@
 
 // XXX decompose into splash sass file
 .splash {
-  height: 450px;
+  height: 500px;
   color: white;
 
   h2 {
@@ -26,12 +26,17 @@
 }
 
 .feature-wrap {
-  background: #E6E6E6;
+  background: #F0F0F0;
   padding-bottom: 40px;
   padding-top: 40px;
+  border-bottom: 1px solid #D1D1D1;
 
   .feature-icon {
     text-align: center;
+  }
+
+  h2 {
+    //color: #0B9B0B;
   }
 }
 
@@ -40,7 +45,5 @@ article.data,
 article.printing {
   padding-top: 50px;
   padding-bottom: 50px;
-
-
 }
 
