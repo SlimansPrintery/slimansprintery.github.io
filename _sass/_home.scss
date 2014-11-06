@@ -10,7 +10,7 @@
     padding: 13px 69px;
   }
 
-  .btn-primary { margin-top: 20px; }
+  .btn-primary { margin-top: 52px; }
 }
 
 // XXX decompose into splash sass file
@@ -18,8 +18,10 @@
   height: 500px;
   color: white;
 
+  h1 { font-size: 46px; }
+
   h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
     color: #B2B8B2;
   }
@@ -31,12 +33,16 @@
   padding-top: 40px;
   border-bottom: 1px solid #D1D1D1;
 
-  .feature-icon {
-    text-align: center;
+  p {
+    color: #888;
   }
 
   h2 {
-    //color: #0B9B0B;
+    font-size: 32px;
+  }
+
+  .icon-news, .icon-mail, .icon-data {
+    margin-right: 10px;
   }
 }
 
