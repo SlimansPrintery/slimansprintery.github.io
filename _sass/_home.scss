@@ -48,10 +48,20 @@
   }
 }
 
-article.mailing,
-article.data,
-article.printing {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.services {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #BEBEBE;
+
+  h3 {
+    margin-top: 0;
+    font-size: 34px;
+    color: #007e47;
+  }
+}
+
+.service-photo {
+  background: url('http://www3.pictures.zimbio.com/gi/Postal+Service+Proposes+Cutting+120+000+Jobs+uzQbmfb9eVPl.jpg') gray;
+  height: 350px;
 }
 

@@ -19,13 +19,24 @@
 // overrides
 
 body {
-  font-family: "ff-tisa-sans-web-pro", helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  //font-family: "ff-tisa-sans-web-pro", helvetica, sans-serif;
+  //font-style: normal;
+  //font-weight: 400;
+  font-family: 'open sans';
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
 }
 
 p {
   line-height: 1.5em;
+}
+
+p.lead {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.65em;
 }
 
 
