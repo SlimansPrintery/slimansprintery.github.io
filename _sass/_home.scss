@@ -64,5 +64,18 @@
 .service-photo {
   background: url('http://www3.pictures.zimbio.com/gi/Postal+Service+Proposes+Cutting+120+000+Jobs+uzQbmfb9eVPl.jpg') gray;
   height: 350px;
+  margin-top: 56px;
+}
+
+.service-printing, .service-data {
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: 56px;
+  }
+}
+
+.service-data img {
+  margin-top: 58px;
 }
 
