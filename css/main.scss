@@ -39,6 +39,9 @@ p.lead {
   line-height: 1.65em;
 }
 
+.btn-primary:hover {
+  background: #04693C;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "fonts";
