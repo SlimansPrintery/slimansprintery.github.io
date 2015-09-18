@@ -58,6 +58,17 @@
   padding-bottom: 150px;
   border-bottom: 1px solid #E9E9E9;
 
+  &:nth-last-child(2) {
+    border-bottom: none;
+  }
+
+  img {
+    border-radius: 3px;
+    width: 100%;
+    height: auto;
+    margin-top: 56px;
+  }
+
   h3 {
     margin-top: 0;
     font-size: 34px;
@@ -66,20 +77,12 @@
 }
 
 .service-photo {
-  background: url('http://www3.pictures.zimbio.com/gi/Postal+Service+Proposes+Cutting+120+000+Jobs+uzQbmfb9eVPl.jpg') gray;
+  background: url('images/mailing.jpg') gray;
   height: 350px;
   margin-top: 56px;
+  border-radius: 3px;
 }
 
-.service-printing, .service-data {
-  img {
-    width: 100%;
-    height: auto;
-    margin-top: 56px;
-  }
-}
-
-.service-printing { border-bottom: none; }
 
 .service-data img {
   margin-top: 58px;
@@ -102,18 +105,15 @@
 .contact-inner {
   max-width: 521px;
   margin: 0 auto;
-  //border: 1px solid;
 }
 
 .contact-photo {
   height: 155px;
   width: 155px;
-  margin: 15px 32px 0 0;
-  background: url(https://dl.dropboxusercontent.com/u/17958532/custservice2.jpg) center;
+  margin: 15px 24px 0 0;
+  background: url('../images/cust_service.jpg') center;
   background-size: 100%;
   border-radius: 100px;
-  /*border: 1px solid #E6E6E6;*/
-  /*box-shadow: 0 0 0 1px #ADADAD;*/
   border: 2px solid #FFFFFF;
   box-shadow: 0 0   0   1px #C4C4C4,
               0 3px 3px 1px rgba(0, 0, 0, 0.08);
