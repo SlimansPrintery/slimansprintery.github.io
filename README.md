@@ -1,4 +1,2 @@
 slimansprintery.github.io
 =========================
-
-Website
